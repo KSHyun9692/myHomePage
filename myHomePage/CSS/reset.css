@@ -1,0 +1,91 @@
+/* CSS 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* 폰트 속성과 배경 속성 그리고 글자 행간 속성 설정 */
+body {
+  font-family: NanumGothic, 나눔고딕, "Nanum Gothic", "맑은 고딕", HelveticaNeue,
+    DroidSans, Sans-serif, Helvetica;
+  background: url(../images/s_images/body_bg.png);
+  line-height: 1;
+}
+
+/* 태그들이 정상적으로 작동하도록 block값으로 설정 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* 스타일 초기화 */
+nav ul,
+li {
+  list-style: none;
+}
+
+/* 기본값으로 초기화 */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  text-decoration: none;
+  vertical-align: baseline;
+  color: #fff;
+  background: transparent;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* 태그의 간역을 없애기 위해 기본값으로 설정 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* input태그 초기화 */
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  vertical-align: top;
+  appearance: none;
+  border: 1px solid #e65d5d;
+  color: #e65d5d;
+  border-radius: 0;
+  font-family: NanumGothic, 나눔고딕, "Nanum Gothic", "맑은 고딕", HelveticaNeue,
+    DroidSans, Sans-serif, Helvetica;
+}
+
+input::-moz-input-placeholder {
+  color: #e65d5d;
+}
+
+input::-webkit-input-placeholder {
+  color: #e65d5d;
+}
+
+/* 웹폰트 CSS */
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url(webfont/NanumGothic.eot);
+}
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url(webfont/NanumGothic.woff);
+}
